@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		3DA185DD21FFCDAB00EAED18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA185DC21FFCDAB00EAED18 /* AppDelegate.swift */; };
-		3DA185DF21FFCDAB00EAED18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA185DE21FFCDAB00EAED18 /* ViewController.swift */; };
 		3DA185E221FFCDAB00EAED18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA185E021FFCDAB00EAED18 /* Main.storyboard */; };
 		3DA185E421FFCDAD00EAED18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA185E321FFCDAD00EAED18 /* Assets.xcassets */; };
 		3DA185E721FFCDAD00EAED18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA185E521FFCDAD00EAED18 /* LaunchScreen.storyboard */; };
+		3DA185F52200801700EAED18 /* SimpleCalcMVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA185F42200801700EAED18 /* SimpleCalcMVP.swift */; };
+		3DA185F92200880500EAED18 /* SimpleCalcPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA185F82200880500EAED18 /* SimpleCalcPresenterImpl.swift */; };
+		3DA185FD22008CE200EAED18 /* SimpleCalcViewImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA185FC22008CE200EAED18 /* SimpleCalcViewImpl.swift */; };
+		3DA185FF2200901C00EAED18 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA185FE2200901C00EAED18 /* Constants.swift */; };
+		3DA186012200B15B00EAED18 /* OperationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA186002200B15B00EAED18 /* OperationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3DA185D921FFCDAB00EAED18 /* SimpleCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA185DC21FFCDAB00EAED18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DA185DE21FFCDAB00EAED18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DA185E121FFCDAB00EAED18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DA185E321FFCDAD00EAED18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DA185E621FFCDAD00EAED18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DA185E821FFCDAD00EAED18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA185F42200801700EAED18 /* SimpleCalcMVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalcMVP.swift; sourceTree = "<group>"; };
+		3DA185F82200880500EAED18 /* SimpleCalcPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalcPresenterImpl.swift; sourceTree = "<group>"; };
+		3DA185FC22008CE200EAED18 /* SimpleCalcViewImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalcViewImpl.swift; sourceTree = "<group>"; };
+		3DA185FE2200901C00EAED18 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3DA186002200B15B00EAED18 /* OperationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,66 @@
 		3DA185DB21FFCDAB00EAED18 /* SimpleCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				3DA185DC21FFCDAB00EAED18 /* AppDelegate.swift */,
-				3DA185DE21FFCDAB00EAED18 /* ViewController.swift */,
+				3DA185F121FFDA5E00EAED18 /* Application */,
+				3DA185F221FFDA7200EAED18 /* Resources */,
+				3DA185F321FFDAFC00EAED18 /* MVP */,
 				3DA185E021FFCDAB00EAED18 /* Main.storyboard */,
-				3DA185E321FFCDAD00EAED18 /* Assets.xcassets */,
 				3DA185E521FFCDAD00EAED18 /* LaunchScreen.storyboard */,
 				3DA185E821FFCDAD00EAED18 /* Info.plist */,
 			);
 			path = SimpleCalculator;
+			sourceTree = "<group>";
+		};
+		3DA185EE21FFDA4100EAED18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DA186002200B15B00EAED18 /* OperationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DA185EF21FFDA4A00EAED18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DA185FC22008CE200EAED18 /* SimpleCalcViewImpl.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DA185F021FFDA5600EAED18 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3DA185F82200880500EAED18 /* SimpleCalcPresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3DA185F121FFDA5E00EAED18 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3DA185DC21FFCDAB00EAED18 /* AppDelegate.swift */,
+				3DA185FE2200901C00EAED18 /* Constants.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3DA185F221FFDA7200EAED18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DA185E321FFCDAD00EAED18 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3DA185F321FFDAFC00EAED18 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				3DA185F42200801700EAED18 /* SimpleCalcMVP.swift */,
+				3DA185EE21FFDA4100EAED18 /* Model */,
+				3DA185EF21FFDA4A00EAED18 /* View */,
+				3DA185F021FFDA5600EAED18 /* Presenter */,
+			);
+			path = MVP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +195,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DA185DF21FFCDAB00EAED18 /* ViewController.swift in Sources */,
+				3DA185FF2200901C00EAED18 /* Constants.swift in Sources */,
+				3DA185F52200801700EAED18 /* SimpleCalcMVP.swift in Sources */,
 				3DA185DD21FFCDAB00EAED18 /* AppDelegate.swift in Sources */,
+				3DA186012200B15B00EAED18 /* OperationModel.swift in Sources */,
+				3DA185FD22008CE200EAED18 /* SimpleCalcViewImpl.swift in Sources */,
+				3DA185F92200880500EAED18 /* SimpleCalcPresenterImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
