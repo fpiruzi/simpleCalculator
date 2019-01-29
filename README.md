@@ -1,2 +1,6 @@
 # simpleCalculator
-Simple Calculator iOS
+Simple Calculator iOS - Basic Example
+-MVP
+-NSExpression
+-StackViews
+
