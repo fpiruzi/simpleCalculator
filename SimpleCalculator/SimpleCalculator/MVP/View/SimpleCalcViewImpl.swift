@@ -46,6 +46,17 @@ class SimpleCalcViewImpl: UIViewController, SimpleCalcView{
     func removeLastChar() {
         self.removeLastCharFromText()
     }
+    //Protocol func
+    func showWarning(){
+        let alertController = UIAlertController(
+            title: Constants.Strings.warningTitle,
+            message: Constants.Strings.warningMsg,
+            preferredStyle: .alert
+        )
+        let okAction = UIAlertAction(title: Constants.Strings.ok, style: .default)
+        alertController.addAction(okAction)
+        self.present(alertController, animated: true, completion: nil)
+    }
 }
 //UI
 extension SimpleCalcViewImpl{

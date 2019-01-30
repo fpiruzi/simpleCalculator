@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import Expression
 
 struct OperationModel { // Model
-    let mathExpression: NSExpression
-    let result: Double
+    let mathExpression: String
+    let result: Double?
 }

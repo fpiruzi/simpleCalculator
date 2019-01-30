@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Expression
 
 class SimpleCalcPresenterImpl<T: SimpleCalcView>:SimpleCalcPresenter {
 
@@ -42,9 +43,7 @@ class SimpleCalcPresenterImpl<T: SimpleCalcView>:SimpleCalcPresenter {
                 decimalDidTap(currentText: currentText)
                 break
             case OperationType.equal:
-                let operationModel = math(expresion: currentText!)
-                self.operations.append(operationModel)//History
-                self.view?.showResult(result: String(operationModel.result))
+                processResult(currentText: currentText)
                 break
             case OperationType.sum:
                 addOperationStringToText(currentText: currentText!, operatorSymbol: Constants.Strings.sum)
@@ -82,6 +81,21 @@ extension SimpleCalcPresenterImpl{
         }
     }
     
+    fileprivate func processResult(currentText:String?){
+        var textToDisplay = currentText
+        if(lastCharIsNumber(currentText: currentText)){
+            let operationModel = buildOperationModel(expression: currentText!)
+            self.operations.append(operationModel)//History
+            if let result = operationModel.result{
+                textToDisplay = String(result)
+            }else{
+                self.view?.showWarning()
+                return
+            }
+        }
+        self.view?.showResult(result:textToDisplay!)
+    }
+    
     fileprivate func lastCharIsNumber(currentText: String?) -> Bool{
         guard let text = currentText, text != Constants.Strings.zeroDotZero && !text.isEmpty else {
             return false
@@ -95,16 +109,8 @@ extension SimpleCalcPresenterImpl{
         }
     }
     
-    fileprivate func math(expresion: String)-> OperationModel{
-        var mathValue = 0.0
-        if expresion != Constants.Strings.zeroDotZero && !expresion.isEmpty && lastCharIsNumber(currentText: expresion){
-            if let result = NSExpression(format: expresion).expressionValue(with: nil, context: nil) as? Double{
-                mathValue = result
-            }else{
-                print("failed")
-            }
-        }
-        
-        return OperationModel(mathExpression:NSExpression(format: expresion), result:mathValue)
+    fileprivate func buildOperationModel(expression: String)-> OperationModel{
+        let result = MathCalculator.sharedInstance.performCalc(expression: expression)
+        return OperationModel(mathExpression:expression, result:result)
     }
 }

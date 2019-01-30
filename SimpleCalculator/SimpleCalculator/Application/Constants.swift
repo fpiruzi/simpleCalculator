@@ -17,5 +17,8 @@ open class Constants{
         static let div = "/"
         static let mul = "*"
         static let empty = ""
+        static let warningTitle = "Operación invalida"
+        static let warningMsg = "Esta operación no puede ser evaluada, verifique el formato de la misma"
+        static let ok = "Ok"
     }
 }

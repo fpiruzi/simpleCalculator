@@ -13,6 +13,7 @@ protocol SimpleCalcView: class {
     func clearScreen()
     func appendString(value: String)
     func removeLastChar()
+    func showWarning()
 }
 
 protocol SimpleCalcPresenter{
