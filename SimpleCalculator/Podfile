@@ -7,5 +7,9 @@ target 'SimpleCalculator' do
 
   # Pods for SimpleCalculator
   pod 'Expression', '~> 0.12'
-
+  
+  target 'SimpleCalculatorTests' do
+      inherit! :complete
+  end
+  
 end

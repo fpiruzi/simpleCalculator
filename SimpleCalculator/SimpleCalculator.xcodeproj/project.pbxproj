@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CCB644A3F80663F9E2209A3 /* Pods_SimpleCalculator_SimpleCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BA6074DDF34DA73B109759 /* Pods_SimpleCalculator_SimpleCalculatorTests.framework */; };
 		3D7DB3042202513B00DF3698 /* MathCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7DB3032202513B00DF3698 /* MathCalculator.swift */; };
+		3D7DB31522025E2700DF3698 /* CalcTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7DB31422025E2700DF3698 /* CalcTest.swift */; };
+		3D7DB3162202603100DF3698 /* MathCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7DB3032202513B00DF3698 /* MathCalculator.swift */; };
+		3D7DB3172202690600DF3698 /* SimpleCalcPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA185F82200880500EAED18 /* SimpleCalcPresenterImpl.swift */; };
 		3DA185DD21FFCDAB00EAED18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA185DC21FFCDAB00EAED18 /* AppDelegate.swift */; };
 		3DA185E221FFCDAB00EAED18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA185E021FFCDAB00EAED18 /* Main.storyboard */; };
 		3DA185E421FFCDAD00EAED18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA185E321FFCDAD00EAED18 /* Assets.xcassets */; };
@@ -20,8 +24,21 @@
 		F17BEF47674D6BCAF5A5B158 /* Pods_SimpleCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E974D233489DECEF86014894 /* Pods_SimpleCalculator.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3D7DB30F22025D3100DF3698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA185D121FFCDAB00EAED18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA185D821FFCDAB00EAED18;
+			remoteInfo = SimpleCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		3D7DB3032202513B00DF3698 /* MathCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathCalculator.swift; sourceTree = "<group>"; };
+		3D7DB30A22025D3100DF3698 /* SimpleCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7DB30E22025D3100DF3698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D7DB31422025E2700DF3698 /* CalcTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcTest.swift; sourceTree = "<group>"; };
 		3DA185D921FFCDAB00EAED18 /* SimpleCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA185DC21FFCDAB00EAED18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DA185E121FFCDAB00EAED18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,12 +50,23 @@
 		3DA185FC22008CE200EAED18 /* SimpleCalcViewImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalcViewImpl.swift; sourceTree = "<group>"; };
 		3DA185FE2200901C00EAED18 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3DA186002200B15B00EAED18 /* OperationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationModel.swift; sourceTree = "<group>"; };
+		68BA6074DDF34DA73B109759 /* Pods_SimpleCalculator_SimpleCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCalculator_SimpleCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF78B81773B3FC4F962056A /* Pods-SimpleCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleCalculator/Pods-SimpleCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		7E8250D74CF71478C0C6487B /* Pods-SimpleCalculator-SimpleCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCalculator-SimpleCalculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleCalculator-SimpleCalculatorTests/Pods-SimpleCalculator-SimpleCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A41EABEA64813EA5C20CCA7 /* Pods-SimpleCalculator-SimpleCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCalculator-SimpleCalculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleCalculator-SimpleCalculatorTests/Pods-SimpleCalculator-SimpleCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		8E60477E2BB28ED4E5B27DD7 /* Pods-SimpleCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleCalculator/Pods-SimpleCalculator.debug.xcconfig"; sourceTree = "<group>"; };
 		E974D233489DECEF86014894 /* Pods_SimpleCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3D7DB30722025D3100DF3698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCB644A3F80663F9E2209A3 /* Pods_SimpleCalculator_SimpleCalculatorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3DA185D621FFCDAB00EAED18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,10 +86,20 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		3D7DB30B22025D3100DF3698 /* SimpleCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D7DB31422025E2700DF3698 /* CalcTest.swift */,
+				3D7DB30E22025D3100DF3698 /* Info.plist */,
+			);
+			path = SimpleCalculatorTests;
+			sourceTree = "<group>";
+		};
 		3DA185D021FFCDAB00EAED18 = {
 			isa = PBXGroup;
 			children = (
 				3DA185DB21FFCDAB00EAED18 /* SimpleCalculator */,
+				3D7DB30B22025D3100DF3698 /* SimpleCalculatorTests */,
 				3DA185DA21FFCDAB00EAED18 /* Products */,
 				563161BBF93430677C9F971C /* Pods */,
 				CB46A45A8E7AEF43722B37FD /* Frameworks */,
@@ -72,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				3DA185D921FFCDAB00EAED18 /* SimpleCalculator.app */,
+				3D7DB30A22025D3100DF3698 /* SimpleCalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +186,8 @@
 			children = (
 				8E60477E2BB28ED4E5B27DD7 /* Pods-SimpleCalculator.debug.xcconfig */,
 				7BF78B81773B3FC4F962056A /* Pods-SimpleCalculator.release.xcconfig */,
+				7E8250D74CF71478C0C6487B /* Pods-SimpleCalculator-SimpleCalculatorTests.debug.xcconfig */,
+				8A41EABEA64813EA5C20CCA7 /* Pods-SimpleCalculator-SimpleCalculatorTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -155,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				E974D233489DECEF86014894 /* Pods_SimpleCalculator.framework */,
+				68BA6074DDF34DA73B109759 /* Pods_SimpleCalculator_SimpleCalculatorTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,6 +204,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3D7DB30922025D3100DF3698 /* SimpleCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7DB31122025D3100DF3698 /* Build configuration list for PBXNativeTarget "SimpleCalculatorTests" */;
+			buildPhases = (
+				A2AC093C3824E539C7853A0A /* [CP] Check Pods Manifest.lock */,
+				3D7DB30622025D3100DF3698 /* Sources */,
+				3D7DB30722025D3100DF3698 /* Frameworks */,
+				3D7DB30822025D3100DF3698 /* Resources */,
+				88144EB3C4CFD8F57972C34A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D7DB31022025D3100DF3698 /* PBXTargetDependency */,
+			);
+			name = SimpleCalculatorTests;
+			productName = SimpleCalculatorTests;
+			productReference = 3D7DB30A22025D3100DF3698 /* SimpleCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3DA185D821FFCDAB00EAED18 /* SimpleCalculator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DA185EB21FFCDAD00EAED18 /* Build configuration list for PBXNativeTarget "SimpleCalculator" */;
@@ -191,6 +253,10 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = fpiruzi;
 				TargetAttributes = {
+					3D7DB30922025D3100DF3698 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3DA185D821FFCDAB00EAED18;
+					};
 					3DA185D821FFCDAB00EAED18 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -210,11 +276,19 @@
 			projectRoot = "";
 			targets = (
 				3DA185D821FFCDAB00EAED18 /* SimpleCalculator */,
+				3D7DB30922025D3100DF3698 /* SimpleCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3D7DB30822025D3100DF3698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3DA185D721FFCDAB00EAED18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,6 +320,42 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		88144EB3C4CFD8F57972C34A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleCalculator-SimpleCalculatorTests/Pods-SimpleCalculator-SimpleCalculatorTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Expression/Expression.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expression.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleCalculator-SimpleCalculatorTests/Pods-SimpleCalculator-SimpleCalculatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2AC093C3824E539C7853A0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleCalculator-SimpleCalculatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AFC953C99B27C9D128175471 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,6 +377,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3D7DB30622025D3100DF3698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7DB3172202690600DF3698 /* SimpleCalcPresenterImpl.swift in Sources */,
+				3D7DB3162202603100DF3698 /* MathCalculator.swift in Sources */,
+				3D7DB31522025E2700DF3698 /* CalcTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3DA185D521FFCDAB00EAED18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,6 +402,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D7DB31022025D3100DF3698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA185D821FFCDAB00EAED18 /* SimpleCalculator */;
+			targetProxy = 3D7DB30F22025D3100DF3698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3DA185E021FFCDAB00EAED18 /* Main.storyboard */ = {
@@ -303,6 +431,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3D7DB31222025D3100DF3698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8250D74CF71478C0C6487B /* Pods-SimpleCalculator-SimpleCalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JPTGD9S89F;
+				INFOPLIST_FILE = SimpleCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpiruzi.SimpleCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCalculator.app/SimpleCalculator";
+			};
+			name = Debug;
+		};
+		3D7DB31322025D3100DF3698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A41EABEA64813EA5C20CCA7 /* Pods-SimpleCalculator-SimpleCalculatorTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JPTGD9S89F;
+				INFOPLIST_FILE = SimpleCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpiruzi.SimpleCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCalculator.app/SimpleCalculator";
+			};
+			name = Release;
+		};
 		3DA185E921FFCDAD00EAED18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -460,6 +630,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3D7DB31122025D3100DF3698 /* Build configuration list for PBXNativeTarget "SimpleCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7DB31222025D3100DF3698 /* Debug */,
+				3D7DB31322025D3100DF3698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3DA185D421FFCDAB00EAED18 /* Build configuration list for PBXProject "SimpleCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

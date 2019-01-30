@@ -11,14 +11,24 @@
 		3436920F6195DD28347EF2D4E49F8DA8 /* Expression-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04457BBD20BA8D34160A5436DF92B64F /* Expression-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CFE7BE8E94697B9D6B7C064BF703EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		4B371D6006796B8B3ED11EF56D0B8B98 /* Expression-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B053B0BB8ED52548D738C3A7EAFA081 /* Expression-dummy.m */; };
-		5B9A6FB9F54666AF01F8338575A43FBE /* Pods-SimpleCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2E7F87306EFED8D98E32D1F2551862 /* Pods-SimpleCalculator-dummy.m */; };
+		5B9A6FB9F54666AF01F8338575A43FBE /* Pods-SimpleCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A77701B2C176010D5C4DA2549A5BA259 /* Pods-SimpleCalculator-dummy.m */; };
 		5D6D0FE059A4D3EEBA2C513FFEDE1CDE /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ACA11FEFA91411B3FBB97C833FB5D0 /* Expression.swift */; };
+		642D1E80D5D495ED82D701D5E4BB85A2 /* Pods-SimpleCalculator-SimpleCalculatorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AC0F2141D027A98EEB8FA60AB61D46 /* Pods-SimpleCalculator-SimpleCalculatorTests-dummy.m */; };
+		8029EEBD95BE9E144583DD6F0A7F0E18 /* Pods-SimpleCalculator-SimpleCalculatorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C68F13F8CB642A8FD5FC1EF0E699E2A7 /* Pods-SimpleCalculator-SimpleCalculatorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2B00E7F4C8BA93B096A96F7781495FF /* Expression.h in Headers */ = {isa = PBXBuildFile; fileRef = A47CCEEB1AEA650405F86BF4647D31A2 /* Expression.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5FA89DAA0FCD2E9ADEE04330B6FE443 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		C2952A0E1FD8E6CF56FC025218531B8C /* Pods-SimpleCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2F609FC4AFA11CFA7479D858915DA5 /* Pods-SimpleCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2952A0E1FD8E6CF56FC025218531B8C /* Pods-SimpleCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 364EFB1399196C98B00C0412A6917607 /* Pods-SimpleCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEF49069FB3188E8D80CCE3A41F9CF8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8AEE9F0E18EE96959DAEE88EA9B174A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD068D904DBA66E4FFF242A039DDCB0;
+			remoteInfo = Expression;
+		};
 		E9EF8FFDD0947CE076E1642FCECC66DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -32,29 +42,48 @@
 		004FFAA1CDBBFC3BD4B05C4323668076 /* Expression.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Expression.modulemap; sourceTree = "<group>"; };
 		04457BBD20BA8D34160A5436DF92B64F /* Expression-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expression-umbrella.h"; sourceTree = "<group>"; };
 		0B053B0BB8ED52548D738C3A7EAFA081 /* Expression-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expression-dummy.m"; sourceTree = "<group>"; };
+		10AC0F2141D027A98EEB8FA60AB61D46 /* Pods-SimpleCalculator-SimpleCalculatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleCalculator-SimpleCalculatorTests-dummy.m"; sourceTree = "<group>"; };
 		1BCA0F029CE65E2FE2610370ED5368C9 /* Expression-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expression-prefix.pch"; sourceTree = "<group>"; };
-		2A3AEFEC5019FF7E92B396E7D6C95F06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D718491E81676D1D58DD533E3193299 /* Pods-SimpleCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleCalculator.modulemap"; sourceTree = "<group>"; };
-		35C229F1CA875357C77303AF79EB9C21 /* Pods-SimpleCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCalculator.debug.xcconfig"; sourceTree = "<group>"; };
-		4B130E606428D3A47EB0C361D42F9BC4 /* Expression.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expression.framework; path = Expression.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2350A73EF4D11976CA2F68AAB66A9256 /* Pods-SimpleCalculator-SimpleCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCalculator-SimpleCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		2DEBDD6BF4D9BCFB50B7A51ACD6EB179 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364EFB1399196C98B00C0412A6917607 /* Pods-SimpleCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleCalculator-umbrella.h"; sourceTree = "<group>"; };
+		3C7A085558E3F19050EC8D62C803B97D /* Pods-SimpleCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		55933706D7BC8F787EC1CE3749E04A95 /* Pods-SimpleCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCalculator.release.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6E2E7F87306EFED8D98E32D1F2551862 /* Pods-SimpleCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleCalculator-dummy.m"; sourceTree = "<group>"; };
-		6FF3A271EFCBCE9384AE06FE89672B77 /* Pods_SimpleCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleCalculator.framework; path = "Pods-SimpleCalculator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B47CA0D63C1DC5D9BBFF41B21D06B22 /* Expression.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expression.xcconfig; sourceTree = "<group>"; };
+		863EDA179B92212D865F9C1BE45E61FB /* Pods-SimpleCalculator-SimpleCalculatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleCalculator-SimpleCalculatorTests.modulemap"; sourceTree = "<group>"; };
+		89D448ABE5790042ED03C6204E3FF72B /* Pods-SimpleCalculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleCalculator-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A2FE2E356E72B21FC354CE3E494CE36 /* Pods-SimpleCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
-		9B3356DEA46931B7BF6967B393E5CD5C /* Pods-SimpleCalculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleCalculator-frameworks.sh"; sourceTree = "<group>"; };
-		A185960F35BA60E566D088596189F911 /* Pods-SimpleCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		9A2657E6D47574FCD28572C7670B426E /* Pods-SimpleCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCalculator.debug.xcconfig"; sourceTree = "<group>"; };
 		A234AB8AAC80CCF7AD91CFCB42B6F41A /* AnyExpression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyExpression.swift; path = Sources/AnyExpression.swift; sourceTree = "<group>"; };
+		A3C027C96E51E4BD819FFD9F016F36ED /* Pods-SimpleCalculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleCalculator-resources.sh"; sourceTree = "<group>"; };
 		A47CCEEB1AEA650405F86BF4647D31A2 /* Expression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expression.h; path = Sources/Expression.h; sourceTree = "<group>"; };
-		B226C0FA5704D127E969030DE569F259 /* Pods-SimpleCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A77701B2C176010D5C4DA2549A5BA259 /* Pods-SimpleCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleCalculator-dummy.m"; sourceTree = "<group>"; };
+		A81E7730F453B058B9FA8D1C2A00042E /* Pods-SimpleCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AACFC519332AB43DC9B3F651A0416960 /* Pods_SimpleCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleCalculator.framework; path = "Pods-SimpleCalculator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE79FEA1B16DC25F7A2FB9C35C7B2BD5 /* Pods-SimpleCalculator-SimpleCalculatorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleCalculator-SimpleCalculatorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3786C73C29BF469D5C4BE08F543C2B7 /* Pods-SimpleCalculator-SimpleCalculatorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleCalculator-SimpleCalculatorTests-resources.sh"; sourceTree = "<group>"; };
+		B3D4CD46842E5B4B80537AAF6F069613 /* Pods-SimpleCalculator-SimpleCalculatorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleCalculator-SimpleCalculatorTests-frameworks.sh"; sourceTree = "<group>"; };
+		B42F28D6B62D91A0557AC72A5A0FD9D8 /* Pods-SimpleCalculator-SimpleCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCalculator-SimpleCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE32F2979E9F675417E56EA45AA0152C /* Pods-SimpleCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleCalculator.modulemap"; sourceTree = "<group>"; };
 		C3ACA11FEFA91411B3FBB97C833FB5D0 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Expression.swift; sourceTree = "<group>"; };
+		C68F13F8CB642A8FD5FC1EF0E699E2A7 /* Pods-SimpleCalculator-SimpleCalculatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleCalculator-SimpleCalculatorTests-umbrella.h"; sourceTree = "<group>"; };
+		CE6B8CB0D9C422ECC38B9983F260264A /* Pods_SimpleCalculator_SimpleCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleCalculator_SimpleCalculatorTests.framework; path = "Pods-SimpleCalculator-SimpleCalculatorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CD617C304FF4128FA9989C47F1C245 /* Expression.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expression.framework; path = Expression.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA3A50368E113779D64A236629D7173 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC06F08CA9248B1E0312A08F56CF7ACB /* Pods-SimpleCalculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleCalculator-resources.sh"; sourceTree = "<group>"; };
-		FC2F609FC4AFA11CFA7479D858915DA5 /* Pods-SimpleCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleCalculator-umbrella.h"; sourceTree = "<group>"; };
+		EFC56A60E43857A2061961CABF5C592B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7BA4447A17C468338AC9A0D8E18FFE1 /* Pods-SimpleCalculator-SimpleCalculatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleCalculator-SimpleCalculatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5D5B7EE534E66367634F70DE6E6E37FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF49069FB3188E8D80CCE3A41F9CF8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9232C2E9A41F7F2E61A8F6100F70FB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0156EB048FEEE34B8044F84878B5FD93 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC43B292D5FA68BD86176A94C6621CB /* Pods-SimpleCalculator */,
+				4D72DE851C3CC4DCA781046E4469050C /* Pods-SimpleCalculator-SimpleCalculatorTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		070BB1CF0E47C126F019CF8EDCDDEFD1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,22 +126,32 @@
 			path = "../Target Support Files/Expression";
 			sourceTree = "<group>";
 		};
-		254F5E0715397D086A0AB6401B56A949 /* Pods-SimpleCalculator */ = {
+		15BBA58FDA27F8DAF6519F0B534A9C44 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A3AEFEC5019FF7E92B396E7D6C95F06 /* Info.plist */,
-				2D718491E81676D1D58DD533E3193299 /* Pods-SimpleCalculator.modulemap */,
-				B226C0FA5704D127E969030DE569F259 /* Pods-SimpleCalculator-acknowledgements.markdown */,
-				9A2FE2E356E72B21FC354CE3E494CE36 /* Pods-SimpleCalculator-acknowledgements.plist */,
-				6E2E7F87306EFED8D98E32D1F2551862 /* Pods-SimpleCalculator-dummy.m */,
-				9B3356DEA46931B7BF6967B393E5CD5C /* Pods-SimpleCalculator-frameworks.sh */,
-				FC06F08CA9248B1E0312A08F56CF7ACB /* Pods-SimpleCalculator-resources.sh */,
-				FC2F609FC4AFA11CFA7479D858915DA5 /* Pods-SimpleCalculator-umbrella.h */,
-				35C229F1CA875357C77303AF79EB9C21 /* Pods-SimpleCalculator.debug.xcconfig */,
-				A185960F35BA60E566D088596189F911 /* Pods-SimpleCalculator.release.xcconfig */,
+				D4CD617C304FF4128FA9989C47F1C245 /* Expression.framework */,
+				AACFC519332AB43DC9B3F651A0416960 /* Pods_SimpleCalculator.framework */,
+				CE6B8CB0D9C422ECC38B9983F260264A /* Pods_SimpleCalculator_SimpleCalculatorTests.framework */,
 			);
-			name = "Pods-SimpleCalculator";
-			path = "Target Support Files/Pods-SimpleCalculator";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D72DE851C3CC4DCA781046E4469050C /* Pods-SimpleCalculator-SimpleCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DEBDD6BF4D9BCFB50B7A51ACD6EB179 /* Info.plist */,
+				863EDA179B92212D865F9C1BE45E61FB /* Pods-SimpleCalculator-SimpleCalculatorTests.modulemap */,
+				AE79FEA1B16DC25F7A2FB9C35C7B2BD5 /* Pods-SimpleCalculator-SimpleCalculatorTests-acknowledgements.markdown */,
+				F7BA4447A17C468338AC9A0D8E18FFE1 /* Pods-SimpleCalculator-SimpleCalculatorTests-acknowledgements.plist */,
+				10AC0F2141D027A98EEB8FA60AB61D46 /* Pods-SimpleCalculator-SimpleCalculatorTests-dummy.m */,
+				B3D4CD46842E5B4B80537AAF6F069613 /* Pods-SimpleCalculator-SimpleCalculatorTests-frameworks.sh */,
+				B3786C73C29BF469D5C4BE08F543C2B7 /* Pods-SimpleCalculator-SimpleCalculatorTests-resources.sh */,
+				C68F13F8CB642A8FD5FC1EF0E699E2A7 /* Pods-SimpleCalculator-SimpleCalculatorTests-umbrella.h */,
+				B42F28D6B62D91A0557AC72A5A0FD9D8 /* Pods-SimpleCalculator-SimpleCalculatorTests.debug.xcconfig */,
+				2350A73EF4D11976CA2F68AAB66A9256 /* Pods-SimpleCalculator-SimpleCalculatorTests.release.xcconfig */,
+			);
+			name = "Pods-SimpleCalculator-SimpleCalculatorTests";
+			path = "Target Support Files/Pods-SimpleCalculator-SimpleCalculatorTests";
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -132,8 +180,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				80816BACD5357D61F8ABAA9E151AED57 /* Pods */,
-				DF9E9B5CFF9DA1A121120C7AC1F71E64 /* Products */,
-				B009D1CF934A3ABE3CF08DD557A5795E /* Targets Support Files */,
+				15BBA58FDA27F8DAF6519F0B534A9C44 /* Products */,
+				0156EB048FEEE34B8044F84878B5FD93 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,14 +193,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B009D1CF934A3ABE3CF08DD557A5795E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				254F5E0715397D086A0AB6401B56A949 /* Pods-SimpleCalculator */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,18 +201,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF9E9B5CFF9DA1A121120C7AC1F71E64 /* Products */ = {
+		CEC43B292D5FA68BD86176A94C6621CB /* Pods-SimpleCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				4B130E606428D3A47EB0C361D42F9BC4 /* Expression.framework */,
-				6FF3A271EFCBCE9384AE06FE89672B77 /* Pods_SimpleCalculator.framework */,
+				EFC56A60E43857A2061961CABF5C592B /* Info.plist */,
+				BE32F2979E9F675417E56EA45AA0152C /* Pods-SimpleCalculator.modulemap */,
+				A81E7730F453B058B9FA8D1C2A00042E /* Pods-SimpleCalculator-acknowledgements.markdown */,
+				3C7A085558E3F19050EC8D62C803B97D /* Pods-SimpleCalculator-acknowledgements.plist */,
+				A77701B2C176010D5C4DA2549A5BA259 /* Pods-SimpleCalculator-dummy.m */,
+				89D448ABE5790042ED03C6204E3FF72B /* Pods-SimpleCalculator-frameworks.sh */,
+				A3C027C96E51E4BD819FFD9F016F36ED /* Pods-SimpleCalculator-resources.sh */,
+				364EFB1399196C98B00C0412A6917607 /* Pods-SimpleCalculator-umbrella.h */,
+				9A2657E6D47574FCD28572C7670B426E /* Pods-SimpleCalculator.debug.xcconfig */,
+				55933706D7BC8F787EC1CE3749E04A95 /* Pods-SimpleCalculator.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-SimpleCalculator";
+			path = "Target Support Files/Pods-SimpleCalculator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0443944113FD7027FE1C75FFF858C69F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8029EEBD95BE9E144583DD6F0A7F0E18 /* Pods-SimpleCalculator-SimpleCalculatorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45505798EFB9346B6524700E37183F5A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,7 +265,7 @@
 			);
 			name = "Pods-SimpleCalculator";
 			productName = "Pods-SimpleCalculator";
-			productReference = 6FF3A271EFCBCE9384AE06FE89672B77 /* Pods_SimpleCalculator.framework */;
+			productReference = AACFC519332AB43DC9B3F651A0416960 /* Pods_SimpleCalculator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9AD068D904DBA66E4FFF242A039DDCB0 /* Expression */ = {
@@ -225,7 +282,25 @@
 			);
 			name = Expression;
 			productName = Expression;
-			productReference = 4B130E606428D3A47EB0C361D42F9BC4 /* Expression.framework */;
+			productReference = D4CD617C304FF4128FA9989C47F1C245 /* Expression.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2EDB4584894F7A06DB7A900B7AC1D2D /* Pods-SimpleCalculator-SimpleCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7411303103799468457EA23B9A761C08 /* Build configuration list for PBXNativeTarget "Pods-SimpleCalculator-SimpleCalculatorTests" */;
+			buildPhases = (
+				9E268D325489A156B7720759A7FF8FE4 /* Sources */,
+				5D5B7EE534E66367634F70DE6E6E37FE /* Frameworks */,
+				0443944113FD7027FE1C75FFF858C69F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7A9C4C8B7E4DEBE36019BD952BA5486 /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleCalculator-SimpleCalculatorTests";
+			productName = "Pods-SimpleCalculator-SimpleCalculatorTests";
+			productReference = CE6B8CB0D9C422ECC38B9983F260264A /* Pods_SimpleCalculator_SimpleCalculatorTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -245,12 +320,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DF9E9B5CFF9DA1A121120C7AC1F71E64 /* Products */;
+			productRefGroup = 15BBA58FDA27F8DAF6519F0B534A9C44 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9AD068D904DBA66E4FFF242A039DDCB0 /* Expression */,
 				30F9BD4692A5205C3AFE10521162D66C /* Pods-SimpleCalculator */,
+				E2EDB4584894F7A06DB7A900B7AC1D2D /* Pods-SimpleCalculator-SimpleCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +339,14 @@
 				255B364F241A4B35EF3084C60BE229D4 /* AnyExpression.swift in Sources */,
 				4B371D6006796B8B3ED11EF56D0B8B98 /* Expression-dummy.m in Sources */,
 				5D6D0FE059A4D3EEBA2C513FFEDE1CDE /* Expression.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E268D325489A156B7720759A7FF8FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642D1E80D5D495ED82D701D5E4BB85A2 /* Pods-SimpleCalculator-SimpleCalculatorTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +366,12 @@
 			name = Expression;
 			target = 9AD068D904DBA66E4FFF242A039DDCB0 /* Expression */;
 			targetProxy = E9EF8FFDD0947CE076E1642FCECC66DC /* PBXContainerItemProxy */;
+		};
+		C7A9C4C8B7E4DEBE36019BD952BA5486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Expression;
+			target = 9AD068D904DBA66E4FFF242A039DDCB0 /* Expression */;
+			targetProxy = 8AEE9F0E18EE96959DAEE88EA9B174A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -344,6 +434,46 @@
 			};
 			name = Release;
 		};
+		2CEC46F90BE6332B43E16571479A32F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42F28D6B62D91A0557AC72A5A0FD9D8 /* Pods-SimpleCalculator-SimpleCalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleCalculator-SimpleCalculatorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleCalculator-SimpleCalculatorTests/Pods-SimpleCalculator-SimpleCalculatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2EC46A3A20B87FE2530370F74AED40F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B47CA0D63C1DC5D9BBFF41B21D06B22 /* Expression.xcconfig */;
@@ -382,7 +512,7 @@
 		};
 		432052A2CF1730B32F6D7E00E56012A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35C229F1CA875357C77303AF79EB9C21 /* Pods-SimpleCalculator.debug.xcconfig */;
+			baseConfigurationReference = 9A2657E6D47574FCD28572C7670B426E /* Pods-SimpleCalculator.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -520,9 +650,49 @@
 			};
 			name = Debug;
 		};
+		961CD261268116F0262FBB99881C69EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2350A73EF4D11976CA2F68AAB66A9256 /* Pods-SimpleCalculator-SimpleCalculatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleCalculator-SimpleCalculatorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleCalculator-SimpleCalculatorTests/Pods-SimpleCalculator-SimpleCalculatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DE285B48BA8802EA6E47DE082D8F2951 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A185960F35BA60E566D088596189F911 /* Pods-SimpleCalculator.release.xcconfig */;
+			baseConfigurationReference = 55933706D7BC8F787EC1CE3749E04A95 /* Pods-SimpleCalculator.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -586,6 +756,15 @@
 			buildConfigurations = (
 				432052A2CF1730B32F6D7E00E56012A9 /* Debug */,
 				DE285B48BA8802EA6E47DE082D8F2951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7411303103799468457EA23B9A761C08 /* Build configuration list for PBXNativeTarget "Pods-SimpleCalculator-SimpleCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CEC46F90BE6332B43E16571479A32F4 /* Debug */,
+				961CD261268116F0262FBB99881C69EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
